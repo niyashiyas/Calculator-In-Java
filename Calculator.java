@@ -298,8 +298,7 @@ public class Calculator implements ActionListener{
             result = oldValueF / newValueF;
             }
             
-
-
+         displayLabel.setText(result +"");
         }
            
     }
