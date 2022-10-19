@@ -138,10 +138,8 @@ public class Calculator implements ActionListener{
         clearButton.setFont(new Font("Arial", Font.PLAIN, 30));
         jf.add(clearButton);
 
-
-
-
-
+        jf.setVisible(true);
+        jf.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     }
 
     public static void main(String[] args){
