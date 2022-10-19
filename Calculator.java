@@ -37,6 +37,13 @@ public class Calculator implements ActionListener{
         jf.setLayout(null);
         jf.setSize(650, 600);
         jf.setLocation(325, 50);
+         
+         
+        displayLabel = new JLabel();
+        displayLabel.setBounds(30,30, 400,70);
+        displayLabel.setBackground(Color.WHITE);
+        displayLabel.setOpaque(true);
+        displayLabel.setHorizontalAlignment(SwingConstants.RIGHT);
 
      }
 
