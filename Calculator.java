@@ -33,6 +33,10 @@ public class Calculator implements ActionListener{
     float result;
  
      Calculator(){
+        jf= new JFrame("Calculator");
+        jf.setLayout(null);
+        jf.setSize(650, 600);
+        jf.setLocation(325, 50);
 
      }
 
