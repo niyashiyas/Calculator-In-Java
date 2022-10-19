@@ -6,6 +6,7 @@ import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
+
 public class Calculator implements ActionListener{
 
     boolean isOperatorClicked=false;
@@ -26,25 +27,25 @@ public class Calculator implements ActionListener{
     String oldValue;
     int temp;
     float result;
+
+    //----------------------------------------------------------------------//
  
      Calculator(){
         jf= new JFrame("Calculator");
         jf.setLayout(null);
         jf.setSize(650, 600);
         jf.setLocation(325, 50);
-         
-         
+
         displayLabel = new JLabel();
         displayLabel.setBounds(30,30, 400,70);
         displayLabel.setBackground(Color.WHITE);
         displayLabel.setOpaque(true);
-        displayLabel.setHorizontalAlignment(SwingConstants.RIGHT);        
+        displayLabel.setHorizontalAlignment(SwingConstants.RIGHT);
         displayLabel.setForeground(Color.BLACK);
         displayLabel.setFont(new Font("Arial", Font.PLAIN, 40));
+        jf.add(displayLabel);
 
-
-     }
-
+        //adding buttons
         sevenButton= new JButton("7");
         sevenButton.setBounds(30,130, 80,80);
         sevenButton.addActionListener(this);
@@ -147,15 +148,20 @@ public class Calculator implements ActionListener{
         clearButton.setFont(new Font("Arial", Font.PLAIN, 30));
         jf.add(clearButton);
 
+        //-----------------------------------------------------------//
+         
         jf.setVisible(true);
         jf.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     }
+       
+    //----------------------------------------------------------------------//
+
 
     public static void main(String[] args){
         new Calculator();
     }
 
-
+    //----------------------------------------------------------------------//
     @Override
     public void actionPerformed(ActionEvent e){
         // displayLabel.setText("7");
@@ -289,6 +295,8 @@ public class Calculator implements ActionListener{
             oldValue = displayLabel.getText();
         }
         
+        //----------------------------------------------------------------------//
+
         else if(e.getSource()==equalsButton){
             String newValue = displayLabel.getText();
             float oldValueF = Float.parseFloat(oldValue);
@@ -307,7 +315,8 @@ public class Calculator implements ActionListener{
             result = oldValueF / newValueF;
             }
             
-         displayLabel.setText(result +"");
+            displayLabel.setText(result +"");
+
         }
            
     }
