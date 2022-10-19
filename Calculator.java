@@ -38,7 +38,10 @@ public class Calculator implements ActionListener{
         displayLabel.setBounds(30,30, 400,70);
         displayLabel.setBackground(Color.WHITE);
         displayLabel.setOpaque(true);
-        displayLabel.setHorizontalAlignment(SwingConstants.RIGHT);
+        displayLabel.setHorizontalAlignment(SwingConstants.RIGHT);        
+        displayLabel.setForeground(Color.BLACK);
+        displayLabel.setFont(new Font("Arial", Font.PLAIN, 40));
+
 
      }
 
