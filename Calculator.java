@@ -6,11 +6,6 @@ import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-
-// public String getText(){
-//     return text;
-// }
-
 public class Calculator implements ActionListener{
 
     boolean isOperatorClicked=false;
