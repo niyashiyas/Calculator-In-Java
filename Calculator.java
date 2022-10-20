@@ -27,7 +27,9 @@ public class Calculator implements ActionListener{
     String oldValue;
     int temp;
     float result;
-
+    
+    //color 'color' for jframe - background
+    
     //----------------------------------------------------------------------//
  
      Calculator(){
