@@ -28,7 +28,8 @@ public class Calculator implements ActionListener{
     int temp;
     float result;
     
-    //color 'color' for jframe - background
+    //color 'color' for JFrame - background    
+    //color 'colour' for JLable - button, pane
     
     //----------------------------------------------------------------------//
  
