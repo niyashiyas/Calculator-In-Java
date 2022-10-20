@@ -37,7 +37,8 @@ public class Calculator implements ActionListener{
         jf.setLocation(325, 50);
         Color color=new Color(65,16,16);
         jf.getContentPane().setBackground(color);
-        Color colour=new Color(247, 237, 225);
+        Color colour=new Color(247, 237, 225);        
+        displayLabel.setBackground(colour);
 
 
          
