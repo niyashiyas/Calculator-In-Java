@@ -40,11 +40,7 @@ public class Calculator implements ActionListener{
         jf.setLocation(325, 50);
         Color colour=new Color(255,255,255);
         jf.getContentPane().setBackground(Color.BLACK);
-      
-        displayLabel.setBackground(colour);
-
-
-         
+             
         displayLabel = new JLabel();
         displayLabel.setBounds(30,30, 400,70);
         displayLabel.setBackground(Color.BLACK);
