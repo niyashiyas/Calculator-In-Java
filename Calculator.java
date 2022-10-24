@@ -43,7 +43,7 @@ public class Calculator implements ActionListener{
              
         displayLabel = new JLabel();
         displayLabel.setBounds(30,30, 400,70);
-        displayLabel.setBackground(Color.BLACK);
+        displayLabel.setBackground(Color.WHITE);
         displayLabel.setOpaque(true);
         displayLabel.setHorizontalAlignment(SwingConstants.RIGHT);
         displayLabel.setFont(new Font("Arial", Font.PLAIN, 40));
