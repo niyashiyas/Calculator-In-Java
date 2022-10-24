@@ -38,7 +38,7 @@ public class Calculator implements ActionListener{
         jf.setLayout(null);
         jf.setSize(650, 600);
         jf.setLocation(325, 50);
-        Color color=new Color(65,16,16);
+        Color colour=new Color(255,255,255);
         jf.getContentPane().setBackground(Color.BLACK);
       
         displayLabel.setBackground(colour);
@@ -50,7 +50,6 @@ public class Calculator implements ActionListener{
         displayLabel.setBackground(Color.BLACK);
         displayLabel.setOpaque(true);
         displayLabel.setHorizontalAlignment(SwingConstants.RIGHT);
-
         displayLabel.setFont(new Font("Arial", Font.PLAIN, 40));
         jf.add(displayLabel);
 
