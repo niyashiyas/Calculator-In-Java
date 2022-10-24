@@ -39,8 +39,8 @@ public class Calculator implements ActionListener{
         jf.setSize(650, 600);
         jf.setLocation(325, 50);
         Color color=new Color(65,16,16);
-        jf.getContentPane().setBackground(color);
-        Color colour=new Color(247, 237, 225);        
+        jf.getContentPane().setBackground(Color.BLACK);
+      
         displayLabel.setBackground(colour);
 
 
